@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="./styles/pharmacy_style.css">
+</head>
+<body>
+    <header id="checkout-header">
+        <h1><img src="./images/Hospital Logo.webp" width="80px">Checkout</h1>
+    </header>
+    <main>
+        <section id="order-summary">
+            <h2>Your Order</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Item</th>
+                        <th>Price per Item</th>
+                        <th>Quantity</th>
+                        <th>Total</th>
+                    </tr>
+                </thead>
+                <tbody id="checkout-cart">
+                </tbody>
+            </table>
+            <p id="checkout-total">Total: $0</p>
+        </section>
+
+        <section id="details">
+            <h2>Enter Your Details</h2>
+            <form id="checkout-form">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+        
+                <div class="form-group">
+                    <label for="address">Delivery Address:</label>
+                    <textarea id="address" name="address" required></textarea>
+                </div>
+        
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+        
+                <div class="form-group">
+                    <label for="payment-method">Payment Method:</label>
+                    <select id="payment-method" name="payment-method" required>
+                        <option value="visa">Visa</option>
+                        <option value="mastercard">MasterCard</option>
+                        <option value="paypal">PayPal</option>
+                    </select>
+                </div>
+        
+                <button type="submit" class="submit-button">Place Order</button>
+            </form>
+        </section>
+        
+    </main>
+    <script src="./checkout_script.js"></script>
+</body>
+</html>
+

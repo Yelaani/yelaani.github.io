@@ -1,0 +1,444 @@
+/* MOBILE COMPATIBILITY */
+
+/* header section */
+
+@media (max-width: 768px) {
+   .header-bottom-row {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .header-top-row {
+      padding: 15px;
+  }
+
+  #header-button {
+      font-size: 16px;
+      padding: 8px 16px;
+  }
+
+  .header-bottom-row {
+      gap: 10px;
+      padding: 15px;
+  }
+
+  a {
+      font-size: 16px;
+  }
+
+  button {
+      font-size: 16px;
+      padding: 8px 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  #header-button {
+      font-size: 14px;
+      padding: 6px 12px;
+  }
+
+  .header-top-row {
+      padding: 10px;
+  }
+
+  .header-bottom-row {
+      padding: 10px;
+  }
+
+  a {
+      font-size: 14px;
+  }
+
+  button {
+      font-size: 14px;
+      padding: 6px 12px;
+  }
+}
+
+  
+  /* footer section */
+
+@media (max-width: 768px) {
+  .footer-container {
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+  }
+
+  .Stay-connected {
+      padding-right: 0;
+  }
+
+  .shortcuts a,
+  .shortcuts h3,
+  .Contact-info p,
+  .Contact-info h3,
+  .Stay-connected h3,
+  .footer-container ul {
+      font-size: 16px;
+      line-height: 24px;
+      text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer-container {
+      padding: 10px;
+  }
+
+  .Stay-connected {
+      padding-right: 0;
+      margin-bottom: 10px;
+  }
+
+  .shortcuts a,
+  .shortcuts h3,
+  .Contact-info p,
+  .Contact-info h3,
+  .Stay-connected h3,
+  .footer-container ul {
+      font-size: 14px;
+      line-height: 20px;
+  }
+
+  .rights p {
+      margin: 5px;
+      padding-bottom: 5px;
+  }
+}
+
+  /* home page styles */
+  
+  @media (max-width: 800px) {
+      .text-overlay {
+          font-size: 20px;
+          width: 90%;
+          max-width: 500px;
+      }
+  
+      .flex-container1 > div, .flex-container2 ul{
+          font-size: 16px;
+      }
+  
+      .flex-container2 {
+          padding: 0;
+      }
+  
+      .flex-container2 > div{
+          padding-left: 10px;
+        }
+        
+      .subsection > div,.subsection > div ol{
+        font-size: 16px;
+        }
+
+      }
+    
+  @media (max-width: 450px) {
+      .text-overlay {
+          font-size: 18px;
+      }
+  
+      .flex-container1 > div {
+          font-size: 12px;
+      }
+  
+      .flex-container2 > div {
+          padding-left: 5px;
+      }
+  
+      .subsection > div,.subsection > div ol{
+          font-size: 12px;
+      }
+      
+  }
+  
+  /* About us content */
+  
+  
+  @media (max-width: 800px) {
+    .subsection {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .subsection img {
+        display: inline-block;
+        width: 70%;
+        padding-bottom: 10px;
+        height: auto;
+    }
+
+    
+    .map-container iframe {
+        width: 60%;
+        height: auto;
+        align-items: left;
+    }
+    
+    .p1, .p2 {
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 16px;
+    }
+    
+    .abtus-summary {
+        padding: 10px;
+    }
+    
+    .abtus-table {
+        width: auto;
+    }
+    
+    .abtus-table table {
+        border-collapse: collapse;
+        table-layout: fixed;
+    }
+    
+    .abtus-table th, .abtus-table td {
+        padding: 10px;
+        font-size: 16px;
+    }
+    
+    .abtus-table th {
+        font-size: 18px;
+    }
+
+    .table-footer{
+        color:red;
+    }
+    
+    section {
+        height: auto;
+        padding: 20px;
+    }
+    
+    .p1 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    h2, h3 {
+        font-size: 18px;
+    }
+    
+    h3 {
+        font-size: 16px;
+    }
+  
+  }
+  
+  @media (max-width: 420px) {
+    .subsection {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .subsection img {
+        display: inline-block;
+        width: 90%;
+        padding-bottom: 8px;
+        height: auto;
+    }
+
+    .map-container iframe {
+        width: 80%;
+        height: auto;
+        align-items: left;
+    }
+    
+    .p1, .p2 {
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 14px;
+    }
+    
+    .abtus-summary {
+        padding: 8px;
+    }
+    
+    .abtus-table {
+        width: auto;
+    }
+    
+    .abtus-table table {
+        border-collapse: collapse;
+        table-layout: fixed;
+    }
+    
+    .abtus-table th, .abtus-table td {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    .table-footer {
+        color: red;
+    }
+    
+    section {
+        height: auto;
+        padding: 15px;
+    }
+    
+    .p1 {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+    
+    h2, h3 {
+        font-size: 16px;
+    }
+    
+    h3 {
+        font-size: 14px;
+    }
+}
+
+
+  /* Doctors page content */
+
+  @media (max-width: 800px) {
+    .grid-container {
+      grid-template-columns: 1fr;
+    }
+  
+    .doc_item {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .doc_item > div {
+      font-size: 14px;
+    }
+  
+    .doc_image {
+      height: 200px;
+    }
+  }
+
+  @media (max-width: 420px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+
+    .doc_item {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .doc_item > div {
+        font-size: 12px;
+    }
+
+    .doc_image {
+        height: 150px;
+    }
+}
+
+
+/* consulting reservation, pharmacy & patient registration page styles */
+
+
+  @media (max-width: 800px){
+    
+    .table {
+      width: 80%;
+      padding: 10px;
+    }
+  
+    table {
+      width: 90%;
+      border-spacing: 0; 
+    }
+  
+    td {
+      width: 50%;
+      padding: 10px 0;
+    }
+  
+    label, p, input lable{
+      font-size: 16px;
+    }
+  
+    .button {
+      width: 30%;
+      margin: 5px 0;
+      font-size: 16px;
+    }
+  
+    .submit {
+      width: 70%;
+      margin-top: 10px;
+      margin-bottom: 20px;
+    }
+
+    .radio {
+        width:30%;
+    }
+
+    .health-packages{
+      flex-direction: column;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    
+    .p3{
+      padding:0px 10px;
+    }
+
+  }
+
+  @media (max-width: 420px) {
+    .table {
+        width: 90%;
+        padding: 8px;
+    }
+
+    table {
+        width: 100%;
+        border-spacing: 0;
+    }
+
+    td {
+        width: 100%;
+        padding: 8px 0;
+    }
+
+    label, p, input lable {
+        font-size: 14px;
+    }
+
+    .button {
+        width: 50%;
+        margin: 5px 0;
+        font-size: 14px;
+    }
+
+    .submit {
+        width: 90%;
+        margin-top: 8px;
+        margin-bottom: 15px;
+    }
+
+    .radio {
+        width: 50%;
+    }
+
+    .health-packages {
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .p3 {
+        padding: 0px 8px;
+    }
+}

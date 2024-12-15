@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pharmacy</title>
+    <link rel="stylesheet" href="./styles/pharmacy_style.css">
+</head>
+<body>
+    <!-- the header section -->
+    <header>
+        <div class="header-top-row">
+            <input type="search" placeholder="🔍︎ Search">
+            <a href="./Consulting Reservation.html"><button type="button" id="header-button">🗓️ Make Appointment</button></a>
+            <button type="button" id="header-button">📞 0112 160 218</button>
+
+        </div>
+        <div class="header-bottom-row"> &nbsp;
+            <img src="./images/Hospital Logo.webp" alt="Hospital Logo" width="100"  class="logo">
+            <a href="./Index.html"><button>  Home </button></a>
+            <a href="./About Us.html"><button> About Us </button></a>
+            <a href="./Services.html"><button> Services </button></a>
+            <a href="./Doctors.html"><button> Doctors </button></a>
+            <a href="./Consulting Reservation.html"><button> Consulting Reservation </button></a>
+            <a href="./new pharmacy.html"><button> Pharmacy </button></a>
+            <a href="./Patient Registration.html"><button> Patient Registration </button></a>
+            <a href="./Health Packages (additional).html"><button> Health Packages </button></a>
+        </div>
+    </header>
+    
+    <!-- pharmacy page content -->
+    <main>
+        <div id="pharmacy-form">
+            <section>
+                <h2>Analgesics</h2>
+                <div id="flex-container3">
+                    <div class="health-packages">
+                        <label for="quantity">Panadol</label><br>
+                        <img src="./images/pharma images/Paracetamol.jpg" class="doc_image" alt="Panadol"><br>
+                        <input type="number" value="0" min="0" class="number-input" aria-label="quantity" > 
+                        <br><button class="cart" id="addcartbutton" data-name="Paracetamol" data-price="5" >Add to Cart</button>
+                    </div>
+
+                    <div class="health-packages">
+                        <label for="quantity">Aspirin</label><br>
+                        <img src="./images/pharma images/Aspirin.jpg" class="doc_image" alt="Aspirin"><br>
+                        <input type="number" value="0" min="0"  class="number-input" aria-label="quantity">
+                        <br><button class="cart" id="addcartbutton" data-name="Aspirin" data-price="8">Add to Cart</button>
+                    </div>
+
+                    <div class="health-packages">
+                        <label for="quantity">Ibuprofen</label><br>
+                        <img src="./images/pharma images/Ibuprofen.jpg" class="doc_image" alt="Ibuprofen"><br>
+                        <input type="number" value="0" min="0" class="number-input" aria-label="quantity">
+                        <br><button class="cart" id="addcartbutton"  data-name="Ibuprofen" data-price="5">Add to Cart</button>
+                    </div>
+
+                    <div class="health-packages">
+                        <label for="quantity">Naproxen</label><br>
+                        <img src="./images/pharma images/Naproxen.jpg" class="doc_image" alt="Naproxen"><br>
+                        <input type="number"  value="0" min="0"  class="number-input" aria-label="quantity">
+                        <br><button class="cart" data-name="Naproxen" data-price="8" >Add to Cart</button>
+                    </div>
+
+                    <div class="health-packages">
+                        <label for="quantity">Morphine</label><br>
+                        <img src="./images/pharma images/Morphine.jpg" class="doc_image" height="125px" alt="Morphine"><br>
+                        <input type="number"  value="0" min="0" class="number-input" aria-label="quantity">
+                        <br><button class="cart" data-name="Morphine" data-price="5">Add to Cart</button>
+                    </div>
+
+                    <div class="health-packages">
+                        <label for="quantity">Codeine</label><br>
+                        <img src="./images/pharma images/Codeine.jpg" class="doc_image" alt="Codeine"><br>
+                        <input type="number"  value="0" min="0"   class="number-input" aria-label="quantity" aria-label="quantity">
+                        <br><button class="cart" data-name="Codeine" data-price="8">Add to Cart</button>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <h2>Antibiotics</h2>
+                <div id="flex-container3">
+                    <div class="health-packages">
+                        <label for="quantity">Amoxicillin</label><br>
+                        <img src="./images/pharma images/Amoxicillin.jpg" class="doc_image"  height="125px" alt="Amoxicillin"><br>
+                        <input type="number"  value="0" min="0"  class="number-input" aria-label="quantity">
+                        <br><button class="cart" data-name="Amoxicillin" data-price="5" >Add to Cart</button>
+                    </div>
+
+                    <div class="health-packages">
+                        <label for="quantity">Ciprofloxacin</label><br>
+                        <img src="./images/pharma images/Ciprofloxacin.jpg" class="doc_image" alt="Ciprofloxacin"><br>
+                        <input type="number"  value="0" min="0"  class="number-input" aria-label="quantity">
+                        <br><button class="cart" data-name="Ciprofloxacin" data-price="8" >Add to Cart</button>
+                    </div>
+
+                    <div class="health-packages">
+                        <label for="quantity">Doxycycline</label><br>
+                        <img src="./images/pharma images/Doxycycline.jpg" class="doc_image" alt="Doxycycline"><br>
+                        <input type="number"  value="0" min="0"  class="number-input" aria-label="quantity">
+                        <br><button class="cart" data-name="Doxycycline" data-price="5" >Add to Cart</button>
+                    </div>
+
+                    <div class="health-packages">
+                        <label for="quantity">Azithromycin</label><br>
+                        <img src="./images/pharma images/Azithromycin.jpg" class="doc_image" height="125px" alt="Azithromycin"><br>
+                        <input type="number"  value="0" min="0"  class="number-input" aria-label="quantity">
+                        <br><button class="cart" data-name="Azithromycin" data-price="8">Add to Cart</button>
+                    </div>
+
+                    <div class="health-packages">
+                        <label for="quantity">Cephalexin</label><br>
+                        <img src="./images/pharma images/Cephalexin.jpg" class="doc_image" height="125px" alt="Cephalexin"><br>
+                        <input type="number"  value="0" min="0" class="number-input" aria-label="quantity">
+                        <br><button class="cart" data-name="Cephalexin" data-price="5" >Add to Cart</button>
+                    </div>
+
+                    <div class="health-packages">
+                        <label for="quantity">Metronidazole</label><br>
+                        <img src="./images/pharma images/Metronidazole.jpg" class="doc_image" alt="Metronidazole"><br>
+                        <input type="number"  value="0" min="0"  class="number-input" aria-label="quantity">
+                        <br><button class="cart" data-name="Metronidazole" data-price="8">Add to Cart</button>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <h2>Antidepressants</h2>
+                <div id="flex-container3">
+                    <div class="health-packages">
+                        <label for="quantity">Zoloft</label><br>
+                        <img src="./images/pharma images/Zoloft.jpg" class="doc_image" alt="Zoloft"><br>
+                        <input type="number"  value="0" min="0"  class="number-input" aria-label="quantity">
+                        <br><button class="cart" data-name="Zoloft" data-price="5">Add to Cart</button>
+                    </div>
+
+                    <div class="health-packages">
+                        <label for="quantity">Prozac</label><br>
+                        <img src="./images/pharma images/Prozac.jpg" class="doc_image" alt="Prozac"><br>
+                        <input type="number"  value="0" min="0"  class="number-input" aria-label="quantity">
+                        <br><button class="cart" data-name="Prozac" data-price="8">Add to Cart</button>
+                    </div>
+
+                    <div class="health-packages">
+                        <label for="quantity">Wellbutrin</label><br>
+                        <img src="./images/pharma images/Wellbutrin.jpg" class="doc_image" height="125px" alt="Wellbutrin"><br>
+                        <input type="number"  value="0" min="0"  class="number-input" aria-label="quantity">
+                        <br><button class="cart" data-name="Wellbutrin" data-price="5">Add to Cart</button>
+                    </div>
+
+                    <div class="health-packages">
+                        <label for="quantity">Celexa</label><br>
+                        <img src="./images/pharma images/Celexa.jpg" class="doc_image" alt="Celexa"><br>
+                        <input type="number"  value="0" min="0"  class="number-input" aria-label="quantity">
+                        <br><button class="cart" data-name="Celexa" data-price="8">Add to Cart</button>
+                    </div>
+
+                    <div class="health-packages">
+                        <label for="quantity">Lexapro</label><br>
+                        <img src="./images/pharma images/Lexapro.webp" class="doc_image" height="125px" alt="Lexapro"><br>
+                        <input type="number"  value="0" min="0"  class="number-input" aria-label="quantity">
+                        <br><button class="cart" data-name="Lexapro" data-price="5">Add to Cart</button>
+                    </div>
+
+                    <div class="health-packages">
+                        <label for="quantity">Effexor</label><br>
+                        <img src="./images/pharma images/Effexor.jpg" class="doc_image"  height="125px" alt="Effexor"><br>
+                        <input type="number"  value="0" min="0"  class="number-input" aria-label="quantity">
+                        <br><button class="cart" data-name="Effexor" data-price="8">Add to Cart</button>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <h2>Antihistamines </h2>
+                <div id="flex-container3">
+                    <div class="health-packages">
+                        <label for="quantity">Claritin</label><br>
+                        <img src="./images/pharma images/Claritin.jpg" class="doc_image" height="125px" alt="Claritin"><br>
+                        <input type="number"  value="0" min="0"  class="number-input" aria-label="quantity">
+                        <br><button class="cart" data-name="Claritin" data-price="5">Add to Cart</button>
+                    </div>
+
+                    <div class="health-packages">
+                        <label for="quantity">Zyrtec</label><br>
+                        <img src="./images/pharma images/Zyrtec.jpg" class="doc_image" alt="Zyrtec"><br>
+                        <input type="number"  value="0" min="0"  class="number-input" aria-label="quantity">
+                        <br><button class="cart" data-name="Zyrtec" data-price="8">Add to Cart</button>
+                    </div>
+
+                    <div class="health-packages">
+                        <label for="quantity">Allegra</label><br>
+                        <img src="./images/pharma images/Allegra.jpg" class="doc_image" alt="Allegra"><br>
+                        <input type="number" value="0" min="0"  class="number-input" aria-label="quantity">
+                        <br><button class="cart" data-name="Allegra" data-price="5">Add to Cart</button>
+                    </div>
+
+                    <div class="health-packages">
+                        <label for="quantity">Benadryl</label><br>
+                        <img src="./images/pharma images/Benadryl.jpg" class="doc_image" alt="Benadryl"><br>
+                        <input type="number" value="0" min="0"  class="number-input" aria-label="quantity">
+                        <br><button class="cart" data-name="Benadryl" data-price="8">Add to Cart</button>
+                    </div>
+
+                    <div class="health-packages">
+                        <label for="quantity">Cufloc-DM</label><br>
+                        <img src="./images/pharma images/Chlorpheniramine.png" class="doc_image" height="125px" alt="Cufloc-DM"><br>
+                        <input type="number" value="0" min="0"  class="number-input" aria-label="quantity">
+                        <br><button class="cart" data-name="Chlorpheniramine" data-price="5">Add to Cart</button>
+                    </div>
+
+                    <div class="health-packages">
+                        <label for="quantity">Xyzal</label><br>
+                        <img src="./images/pharma images/Xyzal.jpg" class="doc_image" alt="Xyzal"><br>
+                        <input type="number" value="0" min="0"  class="number-input" aria-label="quantity">
+                        <br><button class="cart" data-name="Xyzal" data-price="8">Add to Cart</button>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <h2>Antihypertensives  </h2>
+                <div id="flex-container3">
+                    <div class="health-packages">
+                        <label for="quantity">Lisinopril </label><br>
+                        <img src="./images/pharma images/Lisinopril.jpg" class="doc_image" height="125px" alt="Lisinopril"><br>
+                        <input type="number" value="0" min="0"  class="number-input" aria-label="quantity">
+                        <br><button class="cart" data-name="Lisinopril " data-price="5">Add to Cart</button>
+                    </div>
+
+                    <div class="health-packages">
+                        <label for="quantity">Amlodipine </label><br>
+                        <img src="./images/pharma images/Amlodipine.jpg" class="doc_image" alt="Amlodipine"><br>
+                        <input type="number" value="0" min="0"  class="number-input" aria-label="quantity">
+                        <br><button class="cart" data-name="Amlodipine " data-price="8">Add to Cart</button>
+                    </div>
+
+                    <div class="health-packages">
+                        <label for="quantity">Losartan </label><br>
+                        <img src="./images/pharma images/Losartan.jpg" class="doc_image" alt="Losartan"><br>
+                        <input type="number" value="0" min="0"  class="number-input" aria-label="quantity">
+                        <br><button class="cart" data-name="Losartan " data-price="5">Add to Cart</button>
+                    </div>
+
+                    <div class="health-packages">
+                        <label for="quantity">Dyazide </label><br>
+                        <img src="./images/pharma images/Hydrochlorothiazide.jpg" class="doc_image" alt="Dyazide"><br>
+                        <input type="number" value="0" min="0"  class="number-input" aria-label="quantity">
+                        <br><button class="cart" data-name="Hydrochlorothiazide " data-price="8">Add to Cart</button>
+                    </div>
+
+                    <div class="health-packages">
+                        <label for="quantity">Metoprolol </label><br>
+                        <img src="./images/pharma images/Metoprolol.jpg" class="doc_image" alt="Metoprolol"><br>
+                        <input type="number" value="0" min="0"  class="number-input" aria-label="quantity">
+                        <br><button class="cart" data-name="Metoprolol " data-price="5">Add to Cart</button>
+                    </div>
+
+                    <div class="health-packages">
+                        <label for="quantity">Clonidine </label><br>
+                        <img src="./images/pharma images/Clonidine.jpg" class="doc_image"  height="125px" alt="Clonidine"><br>
+                        <input type="number" value="0" min="0"  class="number-input" aria-label="quantity">
+                        <br><button class="cart" data-name="Clonidine " data-price="8">Add to Cart</button>
+                    </div>
+                </div>
+            </section> 
+
+            <section id="cart">
+                <h2>Cart</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Item</th>
+                            <th>Price per Item</th>
+                            <th>Quantity</th>
+                            <th>Total</th>
+                        </tr>
+                    </thead>
+                    <tbody id="cart-contents">
+                    </tbody>
+                </table>
+
+                <p id="total-price">Total: $0</p>
+                <button type="button" id="buy-now">Buy Now</button>
+                <button type="button" id="save-favourites">Add to Favourites</button>
+                <button type="button" id="apply-favourites">Apply Favourites</button>
+                <div id="message"></div>
+            </section>
+        </div>
+    </main>
+    <script src="./pharma_script.js"></script>
+
+    <!-- footer section -->
+     <footer>
+        <div class="footer-container">
+            <div class="description">
+                <img src="./images/Proper logo.webp" width="200" alt="logo">
+            </div>
+            <div class="shortcuts">
+                <h3>Menus</h3>
+                <ul>
+                    <li><a href="./index.html"> Home</a></li>
+                    <li><a href="./About Us.html"> About Us </a></li>
+                    <li><a href="./Services.html"> Services </a></li>
+                    <li><a href="./Doctors.html"> Doctors </a></li>
+                    <li><a href="./Consulting Reservation.html"> Consulting Reservation </a></li>
+                    <li><a href="./new pharmacy.html"> Pharmacy </a></li>
+                    <li><a href="./Patient Registration.html"> Patient Registration </a></li>
+                    <li><a href="./Health Packages (additional).html"> Health Packages </a></li>
+                </ul>
+            </div>
+
+            <div class="Contact-info">
+                <h3>Contact Us</h3> 
+                <p>TruMed Hospitals (Pvt) Ltd</p>
+                <p>No.20, Neelammahara road, Boralesgamuwa.</p>
+                <p>Hotline: +112 255 255 </p>
+                <p>Email: contactus@TruMed.com</p>
+            </div>
+
+            <div class="Stay-connected">
+                <h3>Stay Connected</h3>
+                <ul class="socialmedia">
+                    <li><a href="https://www.facebook.com/login/" target="blank"><ion-icon name="logo-facebook"></ion-icon></a></li>
+                    <li><a href="https://twitter.com/" target="blank"><ion-icon name="logo-twitter"></ion-icon></a></li>
+                    <li><a href="https://www.instagram.com/accounts/login/" target="blank"><ion-icon name="logo-instagram"></ion-icon></a></li>
+                    <li><a href="https://www.youtube.com/" target="blank"><ion-icon name="logo-youtube"></ion-icon></a></li>
+                    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+                    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+                </ul>
+            </div>
+        </div>
+
+        <div class="rights">
+            <p>&copy; TruMed Hospitals. All rights reserved.</p>
+            <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+        </div>
+    </footer>
+</body>
+</html>
